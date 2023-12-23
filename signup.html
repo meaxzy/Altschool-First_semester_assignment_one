@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    
+    <body>
+        <nav>
+            <div><a href="./index.html">Back</a></div>
+        </nav>
+        <h1>
+            Alt___ <br>
+            School
+        </h1>
+        <h2>Application Form</h2>
+        <p>Fill in your details</p>
+        
+        <form action="/submit" method="post">
+            <label for="name">First Name: *</label><br><br>
+            <input type="text" id="name" placeholder="Enter First Name" required><br><br>
+    
+            <label for="name">Last Name: *</label><br><br>
+            <input type="text" id="name" placeholder="Enter Last Name" required><br><br>
+
+            <label for="gender">Gender: *</label><br><br>
+            <select name="gender" id="gender" required>
+                <option value="select gender">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br>
+
+            <label for="dob">Date of Birth: *</label><br><br>
+            <input type="date" placeholder="Enter your date of birth" required><br><br>
+
+            <label for="email">Email: *</label><br><br>
+            <input type="text" id="email" placeholder="Enter your email" required><br><br>
+
+            <label for="education">Education Level: *</label><br><br>
+            <select name="education" id="education" required>
+                <option value="select education">Select level of education</option>
+                <option value="bsc">Bsc</option>
+                <option value="msc">Msc</option>
+                <option value="phd">Doctorate/Phd</option>
+                <option value="highschool">Highschool/Secondary School</option>
+                <option value="underraduate">Undergraduate</option>
+                <option value="junior/">Junior/Middle School</option>
+                <option value="pgd">Post Graduate</option>
+            </select><br><br>
+
+            <label for="contry">Country *</label><br><br>
+            <select name="country" id="country" required>
+                <option value="select country">Select your Country</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="USA">United States</option>
+                <option value="UK">United Kingdom</option>
+            </select><br><br>
+
+            <label for="state">State/City of Residence: *</label><br><br>
+            <input type="text" id="state" placeholder="Enter your State of Residence" required><br><br>
+
+            <label for="employment">Employment Status: *</label><br><br>
+            <select name="employment" id="employment" required>
+                <option value="select employment">Select employment status</option>
+                <option value="employed">Employed</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="self-employed">Self Employed</option>
+            </select><br><br>
+
+            <label for="phone">Phone Number: *</label><br><br>
+            <input type="tel" id="phone" placeholder="Enter Phone Number" required><br><br>
+
+            <label for="school">Choose School: *</label><br><br>
+            <select name="school" id="school" required>
+                <option value="select school">Select school</option>
+                <option value="engineering">School of Engineering</option>
+                <option value="data">School of Data</option>
+                <option value="business">School of Business</option>
+            </select><br><br>
+
+            <label for="schoolOfStudy">School of Study: *</label><br><br>
+            <select name="schoolOfStudy" id="schoolOfStudy" required>
+                <option value="selectSchool">Select school of study</option>
+                <option value="frontend">Frontend</option>
+                <option value="backend">Backend</option>
+                <option value="cloud">Cloud Computing</option>
+                <option value="dataEngineering">Data Engineering</option>
+                <option value="dataScience">Data Science</option>
+            </select><br><br>
+
+            <label for="how-heard">How did you hear about us? *</label><br><br>
+            <select name="how-heard" id="how-heard" required>
+                <option value="select-how-heard">Select how you heard about us</option>
+                <option value="twitter">Twitter</option>
+                <option value="facebook">Facebook</option>
+                <option value="linkedin">Linkedln</option>
+                <option value="advertising">Advertising</option>
+                <option value="events">Events/Conferences</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="scholarship">Scholarship/Discount Code: *</label><br><br>
+            <input type="text" id="email" placeholder="Scholarship or Discount Code" required><br><br>
+            
+            <p>By clicking continue, I agree to Terms of Use and acknowledge that I have read the Privacy Policy.</p>
+            
+            <button>Proceed</button>
+            
+            <h4>Already have an account? Sign In</h4>
+        </form>
+    </body>
+</html>
